@@ -116,9 +116,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.text-center {
-  text-align: center;
-}
 .text-headline {
   margin: 5% 0 5% 0;
 }
