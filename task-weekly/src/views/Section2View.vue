@@ -38,6 +38,7 @@
         </v-expansion-panel>
       </v-expansion-panels>
     </div>
+  <router-view />
   </div>
 </template>
 

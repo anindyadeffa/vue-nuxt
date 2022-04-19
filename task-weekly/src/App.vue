@@ -32,15 +32,15 @@
               <font-awesome-icon icon="fa-solid fa-house" />
               <v-list-item-title class="title-sidebar">Home</v-list-item-title>
           </v-list-item>
-          <v-list-item href="/section-2">
+          <v-list-item :to="{ path: '/section-2' }">
               <font-awesome-icon icon="fa-solid fa-book" />
               <v-list-item-title class="title-sidebar">Section 2</v-list-item-title>
           </v-list-item>
-          <v-list-item href="/section-3">
+          <v-list-item :to="{ path: '/' }">
               <font-awesome-icon icon="fa-solid fa-book" />
               <v-list-item-title class="title-sidebar">Section 3</v-list-item-title>
           </v-list-item>
-          <v-list-item href="/section-4">
+          <v-list-item :to="{path: '/section-4'}">
               <font-awesome-icon icon="fa-solid fa-book" />
               <v-list-item-title class="title-sidebar">Section 4</v-list-item-title>
           </v-list-item>
