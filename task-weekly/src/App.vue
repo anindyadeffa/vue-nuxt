@@ -55,7 +55,7 @@
             <font-awesome-icon icon="fa-solid fa-book" />
             <v-list-item-title class="title-sidebar">Section 6</v-list-item-title>
           </v-list-item>
-          <!-- <v-list-item :to="{path: '/section-7'}">
+          <v-list-item :to="{path: '/section-7'}">
             <font-awesome-icon icon="fa-solid fa-book" />
             <v-list-item-title class="title-sidebar">Section 7</v-list-item-title>
           </v-list-item>
@@ -74,7 +74,7 @@
           <v-list-item :to="{path: '/section-11'}">
             <font-awesome-icon icon="fa-solid fa-book" />
             <v-list-item-title class="title-sidebar">Section 11</v-list-item-title>
-          </v-list-item> -->
+          </v-list-item>
           <v-list-item class="github-icon">
             <v-btn icon
               href="https://github.com/anindyadeffa"

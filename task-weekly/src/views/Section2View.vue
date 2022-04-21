@@ -8,7 +8,7 @@
       Git yang terdistribusi bukan tersentralisasi, artinya masing-masing computer dapat mendistribusikan ke dalam remote server dan memiliki masing-masing backup-an di remote computer / server tersebut.
     </p>
     <div class="text-center">
-      <img src="@/assets/img/network-graph.png"  width="50%" alt="">
+      <img src="@/assets/img/section-2/network-graph.png"  width="50%" alt="">
     </div>
     <div class="expand-panel">
       <v-expansion-panels>

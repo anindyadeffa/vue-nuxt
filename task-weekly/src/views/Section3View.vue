@@ -2,143 +2,85 @@
   <div class="container">
     <h2 class="text-center mt-5 mb-5">Section 3 - Introduction UI and UX</h2>
     <p>
-      Versioning berfungsi untuk mengatur versi dari source code program.
-      Version control membedakan file dengan versi yang terbarunya.
-      GIT merupakan salah satu version control system popular yang digunakan para developer untuk mengembangkan software secara bersama-sama.
-      Git yang terdistribusi bukan tersentralisasi, artinya masing-masing computer dapat mendistribusikan ke dalam remote server dan memiliki masing-masing backup-an di remote computer / server tersebut.
+      User Experience (UX) adalah apapun yang pengguna (user) rasakan ketika mereka menggunakan produk kita.
+      Sedangkan, User Interface (UI) adalah visualisasi yang user gunakan untuk berinteraksi dengan produk kita.
     </p>
-    <div class="text-center">
-      <!-- <img src="@/assets/img/network-graph.png"  width="50%" alt=""> -->
+    <div class="text-center d-flex">
+      <img src="@/assets/img/section-3/duosweb-homepage.png" class="mr-3"  width="50%" alt="">
+      <img src="@/assets/img/section-3/duosweb-project.png"  width="50%" alt="">
     </div>
     <div class="expand-panel">
       <v-expansion-panels>
         <v-subheader>Pembahasan Materi</v-subheader>
-        <!-- Git Repository (Folder Project) -->
+        <!-- User Experience (UX) -->
         <v-expansion-panel>
           <v-expansion-panel-header class="font-weight-bold">
-            Git Repository (Folder Project)
+            User Experience (UX)
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <p>
-              Folders and Files yang telah di distribukan ke Folder Project akan memberitahukan keseluruhan History yang telah dilakukan.
-              Git track every file changes. Commit = the record of changes, yang artinya seluruh commit akan tercatat di Git, di setiap bagian pada file yang mengalami perubahan nantinya.
+              User Experience (UX) adalah apapun yang pengguna (user) rasakan ketika mereka menggunakan produk kita.
               <br>
-              Belajar secara pratikal, yang dilakukan sebagai berikut:
+              Tahapan ketika ingin men-design User Experience, antara lain:
             </p>
             <ol>
-              <li>Git Install</li>
-              <li>Check Git version</li>
-              <li>Make a new repository</li>
-              <li>Using Git Bash</li>
-              <li>Git Cloning</li>
+              <div>
+                <li>Empathize (User Personas, Job Stories, Usability Testing)</li>
+                <p>Empathize adalah menempatkan posisi sebagai user, berempati dengan memahami dan menghargai user, sehingga komunikas dapat berjalan dan tersampaikan dengan baik.</p>
+                <ul>
+                  <li>User Persona adalah profile dari user kita sendiri, didasari dari ekspektasi, kebutuhan, tujuan, dan pola kebiasaan dari user itu sendiri.</li>
+                  <li>Job Stories adalah cerita yang berdasarkan dari modelnya itu sendiri, berdasarkan situatuion, motivation, and outcome.</li>
+                  <li>Usability Testing adalah salah satu cara untuk mengetahui apakah user dapat dengan mudah menggunakan aplikasi kita, seberapa efektif dan efisien sebuah aplikasi dapat membantu user untuk mencapai tujuan, dan apakah user puas dengan aplikasi yang digunakan.</li>
+                </ul>
+              </div>
+              <div>
+                <li>Define</li>
+                <p>Pada tahap define, kita menggunakan semua informasi yang telah didapatkan selama di tahap empathize seperti diawal.</p>
+                <ul>
+                  <li>Priotising Pain Points adalah untuk memprioritaskan masalah yang ada, melakukan pemisahan resi dari yang terpenting hingga yang tidak terlalu penting, menyesuaikan kebutuhan.</li>
+                  <li>Defining the Care Problem, pada tahap ini diharapakn menemukan inti permasalahannya, sehingga akan mengetahui apa yang perlu di fokuskan dalam pengembangan User Experience yang akan dibuat didalam produk nantinya.</li>
+                </ul>
+              </div>
+              <div>
+                <li>Ideate</li>
+                <ul>
+                  <li>User Goal adalah berisikan user flow, could be requirement, user journey, step, story, atau goal-nya.</li>
+                  <li>Flow adalah user flow dengan langkah-langkah yang berbeda dari apa yang dilakukan oleh user di setiap langkahnya untuk menyelesaikan tugas atau mencapai tujuan.</li>
+                  <li>Wireflow adalah kombinasi dari wireframe dan flowcharts.</li>
+                </ul>
+              </div>
             </ol>
           </v-expansion-panel-content>
         </v-expansion-panel>
-        <!-- The Staging Area -->
+        <!-- User Interface (UI) -->
         <v-expansion-panel>
           <v-expansion-panel-header class="font-weight-bold">
-            The Staging Area
+            User Interface (UI)
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <p>
-              Perubahan dari Working Directory dengan melakukan 'git add' untuk memasuukan perubahan tersebut ke staging area. Dari Staging Directory akan masuk ke Repository dengan melakukan 'git commit'.
+              User Interface (UI) adalah visualisasi yang user gunakan untuk berinteraksi dengan produk kita.
               <br>
-              Belajar secara pratikal, yang dilakukan sebagai berikut:
+              User Interface memiliki 4 pilar, ke empat pilar ini didasari dari bagaimana penampilan dan pemahaman dari desain yang dibuat saling bekerja sama.
             </p>
             <ol>
-              <li>Git add</li>
-              <li>Git commit -m 'commit message'</li>
-              <li>Git push, git push dilakukan ketika file telah di commit, yang berarti telah di wrap ke dalam satu paket yang akan siap dikirim menggunakan perintah 'git push' tersebut.</li>
-              <li>Commit Message, penulisan commit message harus dijelaskan secara deskripsi, jelas dan terperinci.</li>
+              <li>Consistency adalah desain yang menggunakan pola yang sama, selain itu juga urutan yang memiliki situasi yang mirip.</li>
+              <li>Keep the interface simple, perlu untuk menghilangkan element-element yang tidak dibutuhan dan menggunakan bahasa yang jelas.</li>
+              <li>Good Typography, Typace merupakan kumpulan huruf memiliki pola yang sama, perlu memperhatikan ukuran, jenis font, dan juga pengaturannya bertujuan agar text menjadi lebih mudah di baca.</li>
+              <li>Offer Informative Feedback adalah informasi balik harus berarti, relevan, dan jelas.</li>
             </ol>
           </v-expansion-panel-content>
         </v-expansion-panel>
-        <!-- Git Diff And Stash -->
+        <!-- Prototype -->
         <v-expansion-panel>
           <v-expansion-panel-header class="font-weight-bold">
-            Git Diff And Stash
+            Prototype
           </v-expansion-panel-header>
           <v-expansion-panel-content>
             <p>
-              Git diff berfungsi untuk mengetahui bagaimana perubahan yang terjadi di file yang telah di ubah.
-              <br>
-              Git Stash berfungsi untuk menyimpan perubahan itu, sehingga nanti dapat dikembalikan di perubahan-perubahan yang diinginkan.
+              Prototype adalah simulasi atau contoh sample dari final produk tersebut.
+              Tujuan dari protoype ini adalah untuk testing sebelum kalian menghabiskan banyak waktu dan uang dalam pembuatan projek tersebut.
             </p>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <!-- Inspecting Repository -->
-        <v-expansion-panel>
-          <v-expansion-panel-header class="font-weight-bold">
-            Inspecting Repository
-          </v-expansion-panel-header>
-          <v-expansion-panel-content>
-            <p>Bagaimana untuk dapat me-management versi yang telah dibuat.</p>
-            <ol>
-              <li>Git Log and Git Checkout</li>
-              Git Log, berfungsi untuk dapat menampilkan setiap commit yang telah dilakukan, sedangkan Git Checkout untuk dapat kembali ke commit-an sebelumnya.
-              <li>Git Reset</li>
-              Git reset terbagi menjadi dua jenis, antara lain:
-              <ul>
-                <li>Git reset - soft : uncommit change, changes are left staged.</li>
-                <li>Git reset - hard : uncommit + unstage + delete changes, nothing left.</li>
-              </ul>
-            </ol>
-            <p>
-              Perbedaannya:
-              <ul>
-                <li>Untuk soft, perubahannya terjadi tidak sebanyak yang dilakukan hard, dan juga commit-an nya tetap masih ada.</li>
-                <li>Sedangkan, untuk hard, nanti bisa menghapuskan commit di versi yang kita pilih atau input.</li>
-                <li>Soft lebih di recommended, karena hard akan menghilangkan secara permanent.</li>
-              </ul>
-            </p>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <!-- Syncing -->
-        <v-expansion-panel>
-          <v-expansion-panel-header class="font-weight-bold">
-            Syncing (Git Remote, Git Fecth, Git Push, and Git Pull)
-          </v-expansion-panel-header>
-          <v-expansion-panel-content>
-            <p>
-              Git remote memberikan versi dari remote-an kita sewaktu clone, yang nantinya akan muncul sebuah link dari github repository yang sudah kita akses atau telah dibuat.
-              <br>
-              Belajar secara pratikal, yang dilakukan sebagai berikut:
-            </p>
-            <ol>
-              <li>Git remote</li>
-              <li>Git fetch</li>
-              <li>Git push, git push dilakukan ketika file telah di commit, yang berarti telah di wrap ke dalam satu paket yang akan siap dikirim menggunakan perintah 'git push' tersebut.</li>
-              <li>Git pull</li>
-            </ol>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <!-- Branches -->
-        <v-expansion-panel>
-          <v-expansion-panel-header class="font-weight-bold">
-            Branches
-          </v-expansion-panel-header>
-          <v-expansion-panel-content>
-            <p>
-              Melakukan penyabangan untuk mempermudah kolaborasi dengan banyak cabang.
-              <br>
-              Belajar secara pratikal, yang dilakukan sebagai berikut:
-            </p>
-            <ol>
-              <li>List branch : git branch --list</li>
-              <li>Create a new branch : git branch feature-1</li>
-              <li>Delete branch : git branch -D feature-1</li>
-              <li>List remote branch</li>
-              <li>Git push origin branch</li>
-            </ol>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-        <!-- Pull Request -->
-        <v-expansion-panel>
-          <v-expansion-panel-header class="font-weight-bold">
-            Pull Request
-          </v-expansion-panel-header>
-          <v-expansion-panel-content>
-            <p>Teknik ini digunakan untuk kita dapat bisa berkontribusi terhadap repository yang sudah ada, baik repository teman ataupun perusahaan.</p>
           </v-expansion-panel-content>
         </v-expansion-panel>
       </v-expansion-panels>
